@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\4NIDS workin\\.NET\\FirasHadjAmeur-Nids1-TP-AirportManagement-Part1\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "projectUniqueName": "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
       "projectName": "AM.ApplicationCore",
-      "projectPath": "X:\\4NIDS workin\\.NET\\FirasHadjAmeur-Nids1-TP-AirportManagement-Part1\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+      "projectPath": "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
-      "outputPath": "X:\\4NIDS workin\\.NET\\FirasHadjAmeur-Nids1-TP-AirportManagement-Part1\\AM.ApplicationCore\\obj\\",
+      "outputPath": "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
