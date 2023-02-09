@@ -23,6 +23,7 @@ namespace AM.ApplicationCore.Domain
             return $"id={FlightId} flightdate={FlightDate} flightdate={FlightDate}";
 
         }
+        
     }
     
 

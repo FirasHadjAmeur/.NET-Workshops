@@ -1,9 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AM.ApplicationCore.Domain;
-
-
-
-
+using AM.ApplicationCore.Services;
 
 Plane p1 = new Plane();
 
@@ -36,6 +33,8 @@ staff.PassengerType();
 Traveller traveller = new Traveller();
 traveller.PassengerType();
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("---------------------\n");
+
+ServiceFlight S = new ServiceFlight() { Flights = TestData.listFlights.ToList() };
 
 
