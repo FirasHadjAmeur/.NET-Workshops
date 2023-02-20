@@ -18,14 +18,15 @@ namespace AM.ApplicationCore.Domain
 
         public List<Passenger>? Passengers { get; set; }
         public Plane? plane { get; set; }
-        public override string? ToString()
-        {
+        public override string? ToString() {
             return $"id={FlightId} flightdate={FlightDate} flightdate={FlightDate}";
-
         }
         
+
+
+
     }
-    
+
 
 
 

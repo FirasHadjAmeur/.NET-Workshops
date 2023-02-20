@@ -36,6 +36,7 @@ namespace AM.ApplicationCore.Domain
         {
             return base.ToString();
         }
+
     }
 
 }
