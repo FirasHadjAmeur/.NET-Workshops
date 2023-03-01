@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {}
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\AirportManagement\\AM.ApplicationCore\\obj\\",
+        "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
+        "outputPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +59,17 @@
         }
       }
     },
-    "D:\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "projectUniqueName": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj",
         "projectName": "AM.Infrastructure",
-        "projectPath": "D:\\AirportManagement\\AM.Infrastructure\\AM.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\AirportManagement\\AM.Infrastructure\\obj\\",
+        "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
+        "outputPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-                "projectPath": "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
               }
             }
           }

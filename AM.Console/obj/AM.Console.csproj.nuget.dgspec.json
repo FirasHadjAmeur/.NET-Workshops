@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AirportManagement\\AM.Console\\AM.Console.csproj": {}
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Console\\AM.Console.csproj": {}
   },
   "projects": {
-    "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\AirportManagement\\AM.ApplicationCore\\obj\\",
+        "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
+        "outputPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +59,17 @@
         }
       }
     },
-    "D:\\AirportManagement\\AM.Console\\AM.Console.csproj": {
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Console\\AM.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AirportManagement\\AM.Console\\AM.Console.csproj",
+        "projectUniqueName": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Console\\AM.Console.csproj",
         "projectName": "AM.Console",
-        "projectPath": "D:\\AirportManagement\\AM.Console\\AM.Console.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\AirportManagement\\AM.Console\\obj\\",
+        "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Console\\AM.Console.csproj",
+        "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
+        "outputPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-                "projectPath": "D:\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              },
+              "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+                "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj"
               }
             }
           }
@@ -99,7 +102,96 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "projectName": "AM.Infrastructure",
+        "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\AM.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
+        "outputPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "X:\\4NIDS workin\\.NET\\Partie3\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",

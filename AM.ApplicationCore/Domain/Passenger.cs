@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,15 +12,21 @@ namespace AM.ApplicationCore.Domain
     public class Passenger
     {
 
-
+        [Key,MaxLength(7)]
         public string PassportNumber { get; set; }
+        [StringLength(25,MinimumLength =3)]
         public string FirstName { get; set; }
         public int Id { get; set; }
 
         public string LastName { get; set; }
-
+        //[Column("DateOfBirth")]
+        //[Display(Name = "Date Of Birth")]
+        [DisplayName("Date Of Birth"),DataType(DataType.Date) ]
         public DateTime BirthDate { get; set; }
+        [RegularExpression("[0-9]{8}")]
         public int? TelNumber { get; set; }
+        //[DataType(DataType.EmailAddress)]
+        [EmailAddress]
         public string? EmailAddress { get; set; }
 
         public  IList<Flight> Flights { get; set; }

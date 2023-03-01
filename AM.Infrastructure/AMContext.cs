@@ -14,6 +14,8 @@ namespace AM.Infrastructure
         public DbSet<Plane> Planes { get; set; }
         public DbSet<Passenger> Passengers { get; set; }
 
+        public DbSet<Staff> Staffs { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
            
@@ -23,5 +25,6 @@ namespace AM.Infrastructure
 
             base.OnConfiguring(optionsBuilder);
         }
+       
     }
 }
