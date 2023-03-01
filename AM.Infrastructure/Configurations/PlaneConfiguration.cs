@@ -17,6 +17,7 @@ namespace AM.Infrastructure.Configurations
             builder.ToTable("MyPlane");
             builder.Property(p => p.Capacity)
                 .HasColumnName("PlaneCapacity");
+
             // OneToMany #PlaneToFlight
             builder.HasMany(p => p.Flights)
                 .WithOne(f => f.Plane)

@@ -15,6 +15,17 @@ namespace AM.Infrastructure.Configurations
         {
             builder.HasKey(f => f.FlightId);
             builder.ToTable("MyFlights");
+
+            // ManyToMany # FlightsToPassengers
+            builder.HasMany(p => p.Passengers)
+                .WithMany(f => f.Flights)
+                .UsingEntity(p => p.ToTable("PassengerReservation"));
+
+            // ManyToOne # FlightsToPlane
+            //builder.HasOne(p => p.Plane)
+            //    .WithMany(f => f.Flights)
+            //    .HasForeignKey(f => f.FlightId);
+
         }
     }
 }
