@@ -4,7 +4,7 @@
 
 namespace AM.Infrastructure.Migrations
 {
-    public partial class updateMig : Migration
+    public partial class FluentAPI : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
