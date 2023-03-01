@@ -30,6 +30,7 @@ namespace AM.Infrastructure
         {
             modelBuilder.ApplyConfiguration(new FlightConfiguration());
             modelBuilder.ApplyConfiguration(new PassengerConfiguration());
+            modelBuilder.ApplyConfiguration(new PlaneConfiguration());
         }
     }
 }
