@@ -21,7 +21,8 @@ namespace AM.Infrastructure.Configurations
             // OneToMany #PlaneToFlight
             builder.HasMany(p => p.Flights)
                 .WithOne(f => f.Plane)
-                .HasForeignKey(f => f.PlaneId);
+                .HasForeignKey(f => f.PlaneId)
+                .OnDelete(DeleteBehavior.ClientSetNull);
         }
     }
 }

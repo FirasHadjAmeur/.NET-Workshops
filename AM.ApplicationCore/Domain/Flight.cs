@@ -23,9 +23,9 @@ namespace AM.ApplicationCore.Domain
         public  IList<Passenger> Passengers { get; set; }
 
         //[ForeignKey("Plane")]
-        public int PlaneId { get; set; }
+        public int? PlaneId { get; set; }
         [ForeignKey("PlaneId")]
-        public  Plane Plane { get; set; }
+        public  Plane? Plane { get; set; }
 
       
     }
