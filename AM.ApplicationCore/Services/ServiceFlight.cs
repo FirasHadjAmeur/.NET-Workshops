@@ -134,21 +134,21 @@ namespace AM.ApplicationCore.Services
             return Flights.OrderByDescending(f => f.EstimatedDuration);
 
         }
-        public IEnumerable<Traveller> SeniorTravellers(Flight f)
-        {
+        //public IEnumerable<Traveller> SeniorTravellers(Flight f)
+        //{
 
-            var oldTravellers = from p in f.Passengers.OfType<Traveller>()
-                                orderby p.BirthDate
-                                select p;
+        //    var oldTravellers = from p in f.Passengers.OfType<Traveller>()
+        //                        orderby p.BirthDate
+        //                        select p;
 
-            // var reqLambda = f.Passengers.OfType<Traveller>().OrderBy(p => p.BirthDate).Take(3);
+        //    // var reqLambda = f.Passengers.OfType<Traveller>().OrderBy(p => p.BirthDate).Take(3);
 
 
-            return oldTravellers.Take(3);
-            //if we want to skip 3
-            //return oldTravellers.Skip(3);
+        //    return oldTravellers.Take(3);
+        //    //if we want to skip 3
+        //    //return oldTravellers.Skip(3);
 
-        }
+        //}
 
         public IGrouping<string, IEnumerable<Flight>> DestinationGroupedFlights()
         {

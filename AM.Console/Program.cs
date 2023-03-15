@@ -36,7 +36,7 @@ t1.PassengerType();
 Console.WriteLine("************************************ Testing Services  ****************************** ");
 ServiceFlight sf = new ServiceFlight();
 
-sf.Flights = TestData.listFlights;
+//sf.Flights = TestData.listFlights;
 
 Console.WriteLine("************************************ GetFlightDates (string destination)  ****************************** ");
 Console.WriteLine("Flight dates to Madrid");
@@ -55,8 +55,8 @@ Console.WriteLine("************************************ OrderedDurationFlights()
 foreach (var item in sf.OrderedDurationFlights())
     Console.WriteLine(item);
 Console.WriteLine("************************************ SeniorTravellers(Flight flight) ****************************** ");
-foreach (var item in sf.SeniorTravellers(TestData.flight1))
-    Console.WriteLine(item);
+//foreach (var item in sf.SeniorTravellers(TestData.flight1))
+    //Console.WriteLine(item);
 Console.WriteLine("************************************ DestinationGroupedFlights()  ****************************** ");
 sf.diplay();
 

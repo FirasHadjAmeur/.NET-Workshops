@@ -31,6 +31,24 @@ namespace AM.Infrastructure
             modelBuilder.ApplyConfiguration(new FlightConfiguration());
             modelBuilder.ApplyConfiguration(new PassengerConfiguration());
             modelBuilder.ApplyConfiguration(new PlaneConfiguration());
+            modelBuilder.ApplyConfiguration(new TicketConfiguration());
+
+            // Configure TPT
+            modelBuilder.Entity<Passenger>().ToTable("Passenger");
+            modelBuilder.Entity<Staff>().ToTable("Staff");
+            modelBuilder.Entity<Traveller>().ToTable("Traveller");
+
+        }
+
+        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            configurationBuilder.Properties<string>()
+                .HaveMaxLength(100)
+                .HaveColumnType("nchar");
+            configurationBuilder.Properties<DateTime>()
+                .HaveColumnType("Date");
+            configurationBuilder.Properties<double>()
+                .HavePrecision(2, 3);
         }
     }
 }

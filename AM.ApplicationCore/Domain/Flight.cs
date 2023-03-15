@@ -20,7 +20,7 @@ namespace AM.ApplicationCore.Domain
         public string Destination { get; set; }
 
      
-        public  IList<Passenger> Passengers { get; set; }
+        public  List<Ticket> Tickets { get; set; }
 
         //[ForeignKey("Plane")]
         public int? PlaneId { get; set; }

@@ -19,6 +19,16 @@ namespace AM.Infrastructure.Configurations
                 .HasColumnName("FirstNamePassenger")
                 .HasColumnType("nchar")
                 .HasDefaultValue("FirstName");
+
+            // Configure TPH ( strategie d'heritage )
+            //builder.HasDiscriminator<string>("PassengerType")
+            //    .HasValue<Passenger>("Passenger")
+            //    .HasValue<Staff>("Staff")
+            //    .HasValue<Traveller>("Traveller");
+           
+
+
+           
         }
     }
 }
