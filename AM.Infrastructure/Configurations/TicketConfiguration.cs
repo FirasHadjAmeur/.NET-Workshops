@@ -13,6 +13,7 @@ namespace AM.Infrastructure.Configurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Ticket> builder)
         {
             builder.HasKey(t => new {t.FlightFk , t.PassengerFk});
+           
         }
     }
 }
