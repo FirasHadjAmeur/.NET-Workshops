@@ -30,12 +30,13 @@ namespace AM.ApplicationCore.Domain
         public string? EmailAddress { get; set; }
 
         public virtual List<Ticket> Tickets { get; set; }
+        public List<Reservation> Reservations { get; set; }
 
         //public override string ToString()
         //{
         //    return "FirstName: " + FirstName + " LastName: " + LastName + " date of Birth: " + BirthDate;
         //}
-       
+
         //poly par signature 
         public bool CheckProfile (string firstName , string lastName)
         {

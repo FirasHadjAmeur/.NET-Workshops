@@ -66,6 +66,7 @@ namespace AM.ApplicationCore.Domain
         #region prop de navigation
 
         public virtual IList<Flight> Flights { get; set; }
+        public List<Seat> Seats { get; set; }
 
 
         #endregion
