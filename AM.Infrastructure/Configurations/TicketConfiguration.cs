@@ -13,7 +13,15 @@ namespace AM.Infrastructure.Configurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Ticket> builder)
         {
             builder.HasKey(t => new {t.FlightFk , t.PassengerFk});
-           
+
+            builder.HasOne(p => p.Passenger)
+                .WithMany(t => t.Tickets)
+                .HasForeignKey(t => t.PassengerFk);
+
+            builder.HasOne(p => p.Flight)
+                .WithMany(t => t.Tickets)
+                .HasForeignKey(t => t.FlightFk);
+
         }
     }
 }

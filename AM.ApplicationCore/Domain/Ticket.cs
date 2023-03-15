@@ -13,13 +13,14 @@ namespace AM.ApplicationCore.Domain
         public float Prix { get; set; }
         public bool Vip { get; set; }
 
-        [ForeignKey("Flight")]
+        [ForeignKey("FlightFk")]
         public int FlightFk { get; set; }
+       
         public Flight Flight { get; set; }
 
         [ForeignKey("PassengerFk")]
 
-        public int PassengerFk { get; set; }
+        public string PassengerFk { get; set; }
         public Passenger Passenger { get; set; }
 
 
