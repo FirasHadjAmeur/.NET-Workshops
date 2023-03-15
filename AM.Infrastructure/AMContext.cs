@@ -32,6 +32,8 @@ namespace AM.Infrastructure
             modelBuilder.ApplyConfiguration(new PassengerConfiguration());
             modelBuilder.ApplyConfiguration(new PlaneConfiguration());
             modelBuilder.ApplyConfiguration(new TicketConfiguration());
+            modelBuilder.ApplyConfiguration(new ReservationConfiguration());
+            modelBuilder.ApplyConfiguration(new SeatConfiguration());
 
             // Configure TPT
             modelBuilder.Entity<Passenger>().ToTable("Passenger");

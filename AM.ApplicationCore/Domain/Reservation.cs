@@ -11,7 +11,7 @@ namespace AM.ApplicationCore.Domain
     {
         public DateTime DateReservation { get; set; }
 
-        [ForeignKey("FlightFk")]
+        [ForeignKey("SeatFk")]
         public int SeatFk { get; set; }
         public Seat Seat { get; set; }
 
