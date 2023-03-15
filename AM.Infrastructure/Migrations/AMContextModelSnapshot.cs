@@ -30,11 +30,6 @@ namespace AM.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FlightId"), 1L, 1);
 
-                    b.Property<string>("AirlineLogo")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nchar(100)");
-
                     b.Property<string>("Departure")
                         .IsRequired()
                         .HasMaxLength(100)

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AM.Infrastructure.Migrations
 {
     [DbContext(typeof(AMContext))]
-    [Migration("20230315102623_preconv")]
+    [Migration("20230315105232_preconv")]
     partial class preconv
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,11 +31,6 @@ namespace AM.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FlightId"), 1L, 1);
-
-                    b.Property<string>("AirlineLogo")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nchar(100)");
 
                     b.Property<string>("Departure")
                         .IsRequired()

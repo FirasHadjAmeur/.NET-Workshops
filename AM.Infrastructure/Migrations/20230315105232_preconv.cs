@@ -47,7 +47,6 @@ namespace AM.Infrastructure.Migrations
                 {
                     FlightId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AirlineLogo = table.Column<string>(type: "nchar(100)", maxLength: 100, nullable: false),
                     FlightDate = table.Column<DateTime>(type: "Date", nullable: false),
                     EstimatedDuration = table.Column<int>(type: "int", nullable: false),
                     EffectiveArrival = table.Column<DateTime>(type: "Date", nullable: false),

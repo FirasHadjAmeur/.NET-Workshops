@@ -11,7 +11,6 @@ namespace AM.ApplicationCore.Domain
     {
 
         public int FlightId { get; set; }
-        public string AirlineLogo { get; set; }
       
         public DateTime FlightDate { get; set; }
         public int EstimatedDuration { get; set; }
@@ -20,12 +19,12 @@ namespace AM.ApplicationCore.Domain
         public string Destination { get; set; }
 
      
-        public  List<Ticket> Tickets { get; set; }
+        public virtual List<Ticket> Tickets { get; set; }
 
         //[ForeignKey("Plane")]
         public int? PlaneId { get; set; }
         [ForeignKey("PlaneId")]
-        public  Plane? Plane { get; set; }
+        public virtual  Plane? Plane { get; set; }
 
       
     }

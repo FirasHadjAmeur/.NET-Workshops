@@ -16,12 +16,12 @@ namespace AM.ApplicationCore.Domain
         [ForeignKey("FlightFk")]
         public int FlightFk { get; set; }
        
-        public Flight Flight { get; set; }
+        public virtual Flight Flight { get; set; }
 
         [ForeignKey("PassengerFk")]
 
         public string PassengerFk { get; set; }
-        public Passenger Passenger { get; set; }
+        public virtual Passenger Passenger { get; set; }
 
 
     }

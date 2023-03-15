@@ -6,15 +6,24 @@ using AM.Infrastructure;
 Console.WriteLine("Hello, World!");
 
 AMContext context= new AMContext();
-context.Flights.Add(new Flight { 
-    FlightId = 1, 
-    Departure = "Tunis",
-    Destination = "Paris", 
-    EstimatedDuration = 150, 
-    FlightDate = DateTime.Now,
-    Plane = new Plane    
-});
+//context.Flights.Add(new Flight { 
+    
+//    Departure = "Tunis",
+//    Destination = "Paris", 
+//    EstimatedDuration = 150, 
+//    FlightDate = DateTime.Now,
+//    Plane = new Plane (){
+       
+//    Capacity = 100,
+//    ManufactureDate= DateTime.Now,
+//    PlaneType = PlaneType.Boing
+//    }
+//});
 context.SaveChanges();
+foreach (var flight in context.Flights.ToList())
+{
+    Console.WriteLine(flight.FlightId + " || " + flight.Plane.Capacity);
+}
 
 
 
