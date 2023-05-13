@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O6upDdnAIi5URqCvd6QEkZTNafsIapA8/aDOyHKojCNwXQLOCY1u9FRyTST389HQeaypgjCeAWgY4ytqmgxC0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\firas\\Desktop\\airportmanagement\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\firas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
