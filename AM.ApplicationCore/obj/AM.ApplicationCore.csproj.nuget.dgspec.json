@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "C:\\Users\\firas\\Desktop\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\firas\\Desktop\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\firas\\Desktop\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\firas\\Desktop\\.NET-Workshops\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\firas\\.nuget\\packages\\",
-        "outputPath": "X:\\4NIDS workin\\.NET\\4NIDS-ARCHITECTURE-DES-SI-I-.NET\\AM.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\firas\\Desktop\\.NET-Workshops\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\firas\\AppData\\Roaming\\NuGet\\NuGet.Config",

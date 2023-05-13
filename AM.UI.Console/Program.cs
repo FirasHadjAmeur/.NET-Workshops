@@ -35,7 +35,7 @@ traveller.PassengerType();
 
 Console.WriteLine("---------------------\n");
 
-ServiceFlight S = new ServiceFlight() { Flights = TestData.listFlights.ToList() };
+// ServiceFlight S = new ServiceFlight() { Flights = TestData.listFlights.ToList() };
 
 
 
